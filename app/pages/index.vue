@@ -1,15 +1,14 @@
 <template>
   <div style="display: flex; gap: 16px">
-    <NuxtLink
-        to="/page1"
+    <a
+        href="/page1"
+        target="_self"
+    >page1</a>
+    <a
+        href="/page2"
         target="_self"
         rel="noopener noreferrer"
-    >page1</NuxtLink>
-    <NuxtLink
-        to="/page2"
-        target="_self"
-        rel="noopener noreferrer"
-    >page2</NuxtLink>
+    >page2</a>
   </div>
 </template>
 <script setup lang="ts">

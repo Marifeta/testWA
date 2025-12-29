@@ -1,4 +1,4 @@
 <template><div>
   <div>page2</div>
-  <NuxtLink to="/" >back</NuxtLink>
+  <a href="/" >back</a>
 </div></template>
