@@ -7,7 +7,6 @@
     <a
         href="/page2"
         target="_self"
-        rel="noopener noreferrer"
     >page2</a>
   </div>
 </template>
