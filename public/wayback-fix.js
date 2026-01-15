@@ -6,7 +6,7 @@
   
   // Проверяем, находимся ли мы в Wayback Machine
   const isWaybackMachine = window.location.href.includes('web.archive.org') || 
-                           window.location.href.includes('archive.org');
+                           window.location.href.includes('archive');
   
   if (!isWaybackMachine) return;
   
